@@ -1,0 +1,65 @@
+<xml>
+    <ctbk_version>14</ctbk_version>
+    <wifi_tx_pwr>
+        <Default_5GHZ   index="0">20</Default_5GHZ> <!--5G, Max power-->
+        <State1_5GHZ    index="1">20</State1_5GHZ>  <!--5G,WLAN+WWAN-->
+        <State2_5GHZ    index="2">20</State2_5GHZ>  <!--5G,MHS, WLAN+WAN-->
+        <Default_2GHZ   index="3">20</Default_2GHZ> <!--2G, Max power-->
+        <State1_2GHZ    index="4">17</State1_2GHZ> <!--2G,WLAN+WWAN-->
+        <State2_2GHZ    index="5">17</State2_2GHZ> <!--2G,MHS, WLAN+WAN-->
+        <State4_5GHZ    index="6">20</State4_5GHZ>  <!--5G,At head, WLAN only-->
+        <State5_5GHZ    index="7">20</State5_5GHZ>  <!--5G,At head, WLAN+WWAN-->
+        <State6_5GHZ    index="8">20</State6_5GHZ>  <!--5G,Body-Worn, WLAN only-->
+        <State7_5GHZ    index="9">20</State7_5GHZ>  <!--5G,Body-Worn, WLAN+WWAN-->
+        <State4_2GHZ    index="10">16</State4_2GHZ>  <!--2G,At head, WLAN only-->
+        <State5_2GHZ    index="11">16</State5_2GHZ>  <!--2G,At head, WLAN+WWAN-->
+        <State6_2GHZ    index="12">17</State6_2GHZ>  <!--2G,Body-Worn, WLAN only-->
+        <State7_2GHZ    index="13">17</State7_2GHZ>  <!--2G,Body-Worn, WLAN+WWAN-->
+    </wifi_tx_pwr>
+    <wifi_tx_pwr_fem>
+        <Default_5GHZ   index="0">20</Default_5GHZ> <!--5G, Max power-->
+        <State1_5GHZ    index="1">10</State1_5GHZ>  <!--5G,WLAN+WWAN-->
+        <State2_5GHZ    index="2">10</State2_5GHZ>  <!--5G,MHS, WLAN+WAN-->
+        <Default_2GHZ   index="3">20</Default_2GHZ> <!--2G, Max power-->
+        <State1_2GHZ    index="4">18</State1_2GHZ> <!--2G,WLAN+WWAN-->
+        <State2_2GHZ    index="5">18</State2_2GHZ> <!--2G,MHS, WLAN+WAN-->
+        <State4_5GHZ    index="6">20</State4_5GHZ>  <!--5G,At head, WLAN only-->
+        <State5_5GHZ    index="7">20</State5_5GHZ>  <!--5G,At head, WLAN+WWAN-->
+        <State6_5GHZ    index="8">20</State6_5GHZ>  <!--5G,Body-Worn, WLAN only-->
+        <State7_5GHZ    index="9">17</State7_5GHZ>  <!--5G,Body-Worn, WLAN+WWAN-->
+        <State4_2GHZ    index="10">17</State4_2GHZ>  <!--2G,At head, WLAN only-->
+        <State5_2GHZ    index="11">17</State5_2GHZ>  <!--2G,At head, WLAN+WWAN-->
+        <State6_2GHZ    index="12">18</State6_2GHZ>  <!--2G,Body-Worn, WLAN only-->
+        <State7_2GHZ    index="13">18</State7_2GHZ>  <!--2G,Body-Worn, WLAN+WWAN-->
+    </wifi_tx_pwr_fem>
+    <wifi_tx_pwr_5g_split_band>
+        <Band1_5GHZ_At_Head   index="0">20</Band1_5GHZ_At_Head>
+        <Band2_5GHZ_At_Head   index="1">20</Band2_5GHZ_At_Head>
+        <Band3_5GHZ_At_Head   index="2">20</Band3_5GHZ_At_Head>
+        <Band4_5GHZ_At_Head   index="3">20</Band4_5GHZ_At_Head>
+        <Band1_5GHZ_Body_Worn   index="4">12</Band1_5GHZ_Body_Worn>
+        <Band2_5GHZ_Body_Worn   index="5">12</Band2_5GHZ_Body_Worn>
+        <Band3_5GHZ_Body_Worn   index="6">8</Band3_5GHZ_Body_Worn>
+        <Band4_5GHZ_Body_Worn   index="7">10</Band4_5GHZ_Body_Worn>
+    </wifi_tx_pwr_5g_split_band>
+    <wifi_tx_pwr_fem_5g_split_band>
+        <Band1_5GHZ_At_Head   index="0">20</Band1_5GHZ_At_Head>
+        <Band2_5GHZ_At_Head   index="1">20</Band2_5GHZ_At_Head>
+        <Band3_5GHZ_At_Head   index="2">20</Band3_5GHZ_At_Head>
+        <Band4_5GHZ_At_Head   index="3">20</Band4_5GHZ_At_Head>
+        <Band1_5GHZ_Body_Worn   index="4">12</Band1_5GHZ_Body_Worn>
+        <Band2_5GHZ_Body_Worn   index="5">12</Band2_5GHZ_Body_Worn>
+        <Band3_5GHZ_Body_Worn   index="6">8</Band3_5GHZ_Body_Worn>
+        <Band4_5GHZ_Body_Worn   index="7">10</Band4_5GHZ_Body_Worn>
+    </wifi_tx_pwr_fem_5g_split_band>
+    <sar_sensors>
+        <sensor type="prox_front"           index="0">TMD2725 PROX</sensor>
+        <sensor type="prox_back"            index="1">null</sensor>
+        <sensor type="cap_bottom_center"    index="2">capsense_bottom</sensor>
+        <sensor type="cap_bottom_right"     index="3">null</sensor>
+        <sensor type="cap_bottom_left"      index="4">null</sensor>
+        <sensor type="cap_top"              index="5">capsense_top</sensor>
+    </sar_sensors>
+    <!--OB5 config: 9 = 00001001b (cap_bottom_center|cap_top)-->
+    <ob5_sensor_config>9</ob5_sensor_config>
+</xml>
